@@ -3,65 +3,216 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio Website</title>
-  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-  <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- CSS styles -->
+  <link rel='stylesheet prefetch' type="text/css"
+  href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' type="text/css"
+  href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css"  href="css/main.css">
 </head>
 
+<!--  BODY PAGE CONTENT -->
 <body>
-  <nav role='navigation' class="navbar navbar-default navbar-fixed-top">
-    <div class="container"> 
+  
+  <!-- navigation panel -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+        <button type="button" data-target="#navbar-collapse-main" data-toggle="collapse" class="navbar-toggle">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#" class="navbar-brand">Sylwia M. Bialczak</a>
+        <a href="#home" class="navbar-brand">Sylwia M. Bialczak</a>
       </div>
 
-      <div id="navbarCollapse" class="collapse navbar-collapse">
+      <div id="navbar-collapse-main" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </div> <!-- #navbarCollapse -->
-    </div>
-  </nav>
+      </div> <!-- #navbar-collapse-main -->
+    </div> <!-- /.container -->
+  </nav>  <!-- /navigation panel -->
 
+  <!-- first section - Home -->
+  <div id="home" class="home">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Sylwia M. Bialczak</h1>
+          <h2>Web Developer</h2>
+        </div>
+
+        <div class="col-sm-12">
+          <div class="social-icons">
+            <a class="fa fa-github fa-2x btn btn-default" href="https://github.com/argoncode"></a>
+            <a class="fa fa-twitter fa-2x btn btn-default " href="https://twitter.com/argoncode"></a>
+            <a class="fa fa-facebook fa-2x btn btn-default" href="https://facebook.com/sylwia.bialczak"></a>
+            <a class="fa fa-google-plus fa-2x btn btn-default" href="https://plus.google.com/+SylwiaBialczak/posts"></a>
+            <a class="fa fa-envelope fa-2x btn btn-default" href="mailto:argoncode18@gmail.com"></a>
+            <a class="fa fa-key fa-2x btn btn-default" href="https://keybase.io/argon18z"></a>
+            <a class="fa fa-linkedin fa-2x btn btn-default" href="https://www.linkedin.com/in/sylwiambialczak"></a>
+          </div> <!-- /social icons -->
+        </div>  <!-- /social icons -->
+      </div> <!-- /row -->
+    </div><!-- container -->
+  </div> <!-- /#home - first section -->
+
+  <!-- second section - About -->
+  <div id="about" class="pad-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="images/sylwia.png" alt="Image of Sylwia">
+        </div> <!-- /col-sm-6 -->
+        <div class="col-sm-6 text-center">
+          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet.</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum metus et ligula venenatis, at rhoncus nisi molestie. Pellentesque porttitor elit suscipit massa laoreet metus.</p>
+        </div> <!-- /col-sm-6 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+  </div>  <!-- /#about - second section -->
+
+  <!-- third section - Portfolio -->
+  <div id="portfolio" class="pad-section">
+    <div class="container">
+      <h2 class="text-center">Projects</h2>
+      <hr id="projects-ruler"/>
+
+      <div class="row text-center">
+        <div class="col-sm-4 col-sm-offset-2">
+          <h4>Project One</h4>
+          <img src="images/project1.png" alt="Project One">
+
+          <br>
+          <button class="btn btn-default btn-project">code</button>
+          <button class="btn btn-default btn-project">app</button>
+          <br>
+          <button class="btn btn-default btn-project">tools</button>
+
+        </div> <!-- /col-sm-6 -->
+
+        <div class="col-sm-4">
+          <h4>Project Two</h4>
+          <img src="images/project2.png" alt="Project Two">
+
+          <br>
+          <button class="btn btn-default btn-project">code</button>
+          <button class="btn btn-default btn-project">app</button>
+          <br>
+          <button class="btn btn-default btn-project">tools</button>
+        </div> <!-- /col-sm-6 -->
+
+      </div> <!-- /row -->
+
+      <div class="row text-center">
+        <div class="col-sm-4 col-sm-offset-2">
+          <h4>Project Three</h4>
+          <img src="images/project3.png" alt="Project Three">
+
+          <br>
+          <button class="btn btn-default btn-project">code</button>
+          <button class="btn btn-default btn-project">app</button>
+          <br>
+          <button class="btn btn-default btn-project">tools</button>
+
+        </div> <!-- /col-sm-6 -->
+
+        <div class="col-sm-4">
+          <h4>Project Four</h4>
+          <img src="images/project4.png" alt="Project Four">
+
+          <br>
+          <button class="btn btn-default btn-project">code</button>
+          <button class="btn btn-default btn-project">app</button>
+          <br>
+          <button class="btn btn-default btn-project">tools</button>
+        </div> <!-- /col-sm-6 -->
+
+      </div> <!-- /row -->
+
+    </div> <!-- /container -->
+  </div> <!-- /#portfolio - third section -->
+
+  <!-- fourth section - Contact -->
+  <div id="services" class="pad-section">
+    <div class="container text-center">
+      <h2>Contact</h2>
+      <h3>Everyone</h3>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-icons">
+            
+            <a class="fa fa-twitter fa-2x btn btn-default " href="https://twitter.com/argoncode"></a>
+            <a class="fa fa-facebook fa-2x btn btn-default" href="https://facebook.com/sylwia.bialczak"></a>
+            <a class="fa fa-google-plus fa-2x btn btn-default" href="https://plus.google.com/+SylwiaBialczak/posts"></a>
+
+            <br />
+
+            <a class="fa fa-envelope fa-2x btn btn-default" href="mailto:argoncode18@gmail.com"></a>
+            <a class="fa fa-linkedin fa-2x btn btn-default" href="https://www.linkedin.com/in/sylwiambialczak"></a>
+          </div> <!-- /social icons -->
+        </div> <!-- /col -->
+      </div> <!-- /row -->
+
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+
+          <form action="https://formspree.io/argoncode18@gmail.com" method="POST" class="form-horizontal" role="form">
+            <div class="form-group">
+              <input name="name" class="form-control" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+              <input name="email" class="form-control" placeholder="Email" required>
+            </div>
+
+            <div class="form-group">
+              <textarea name="content" class="form-control" rows="5" placeholder="What would you like to say?" required></textarea>
+            </div>
+
+            <input type="hidden" name="_next" value="/thanks/"/>
+            <input type="hidden" name="_subject" value="New submission!"/>
+            <input name="_gotcha" style="display:none"/>
+
+            <button type="submit" class="btn btn-default btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <h3>Geeks</h3>
+        <div class="col-sm-4 col-sm-offset-4">
+          <a class="fa fa-key fa-2x btn btn-default" href="https://keybase.io/argon18z"></a>
+        </div>
+      </div>
+    </div> <!-- /container -->
+  </div> <!-- /fourth section -->
+
+
+<!-- footer -->
+<footer>
+  <hr />
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Heading</h2>
-        <p>Donec id massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      </div>
-
-      <div class="col-md-12">
-        <h2>Heading</h2>
-        <p>Donec mentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      </div>
-      
-      <div class="col-md-12">
-        <h2>Heading</h2>
-        <p>Donec mentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      </div>
-
-      <div class="col-md-12">
-        <h2>Heading</h2>
-        <p>Donec mentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      </div>
-    </div> <!-- row -->
+    <p class="text-center">Copyright &copy; Sylwia M. Bialczak <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script></p>
+  </div>
+</footer>
+<!-- /footer -->
 
 
-    <footer>
-      <p>&copy; Company 2014</p>
-    </footer>
-  </div> <!-- /container -->
 
 
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src="js/main.js"></script>
+<!-- JavaScripts -->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
