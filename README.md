@@ -2,6 +2,11 @@
 ## Portfolio Parallax
 Portfolio Parallax is an example one-page website with parallax scroll.
 
+## Code, versions, demos
+1. Githb: [https://github.com/ArgonCode/portfolio-parallax](https://github.com/ArgonCode/portfolio-parallax)
+2. CodePen: [http://codepen.io/argon/full/rxNQRm](http://codepen.io/argon/full/rxNQRm)
+3. Amazon S3: [http://parallexportfolio.argoncode.xyz](http://parallexportfolio.argoncode.xyz)
+
 ### Author / Contact
 * ![](https://dl.dropboxusercontent.com/u/633848/Images/github_24_black.png) [github](http://www.github.com/argoncode)
 * ![](https://dl.dropboxusercontent.com/u/633848/Images/twitter.png) [twitter](http://twitter.com/argoncode)
