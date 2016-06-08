@@ -16,7 +16,6 @@ Portfolio Parallax is an example one-page website with parallax scroll.
 1. HTML
 2. CSS
 3. [MaterializeCSS framework](http://www.materializecss.com)
-4. few lines of JavaScript / jQuery
 
 ## Copying / License
 MIT
